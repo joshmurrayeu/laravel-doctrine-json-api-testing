@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace JMWD\Testing;
 
 use Doctrine\ORM\EntityManager;
 

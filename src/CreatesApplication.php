@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace JMWD\Testing;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Foundation\Application;

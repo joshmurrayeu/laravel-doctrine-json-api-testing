@@ -1,6 +1,5 @@
 <?php
 
-
 use App\Doctrine\AbstractRepository;
 use Doctrine\ORM\Configuration;
 use Doctrine\ORM\EntityManager;

@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "joshmurrayeu/laravel-doctrine-json-api": "^v0.0.2"
+    "joshmurrayeu/laravel-doctrine-json-api": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.5.10",

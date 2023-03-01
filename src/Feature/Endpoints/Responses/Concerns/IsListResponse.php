@@ -2,10 +2,6 @@
 
 namespace JMWD\Testing\Feature\Endpoints\Responses\Concerns;
 
-use App\Doctrine\Contracts\Entity;
-use App\Doctrine\Entities\Category;
-use JMWD\Testing\Feature\Endpoints\Responses\Category\ReadResponse;
-
 trait IsListResponse
 {
     /**

@@ -18,16 +18,16 @@ abstract class BaseCollection
     }
 
     /**
-     * @param int|null $id
+     * @param mixed ...$params
      *
      * @return string
      */
-    public function url(?int $id = null): string
+    public function url(mixed ...$params): string
     {
         $url = "{$this->getVersion()}/{$this->getResourceType()}";
 
-        if (!empty($id)) {
-            $url .= "/{$id}";
+        if (!empty($params)) {
+            $url .= '/' . implode('/', $params);
         }
 
         return url($url);

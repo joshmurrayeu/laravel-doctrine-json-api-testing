@@ -4,6 +4,8 @@ namespace JMWD\Testing\Feature\Endpoints\Collections;
 
 abstract class BaseCollection
 {
+    const DEFAULT_JSON_API_HEADER = 'application/vnd.api+json';
+
     /**
      * BaseCollection constructor.
      *
